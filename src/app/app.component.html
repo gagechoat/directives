@@ -2,4 +2,8 @@
 <h2>...</h2>
 <hr>
 <h2>Custom attribute directive</h2>
-<div highlight>some text here</div>
+<div [highlight]="'cyan'">some text here</div>
+<hr>
+<h1>Structural Directives</h1>
+<div *ngIf="switch">Conditional Text</div>
+<button (click)="onSwitch()">Switch</button>
